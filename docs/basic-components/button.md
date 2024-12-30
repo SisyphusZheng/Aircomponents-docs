@@ -24,7 +24,7 @@ title: Air-Button
 
 ### Used by
 
-- [air-card](./card)
+#### air-card
 
 ### Graph
 ```mermaid
