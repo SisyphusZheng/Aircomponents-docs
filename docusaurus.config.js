@@ -32,8 +32,8 @@ const config = {
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'zh-Hans', // 默认语言设置为简体中文
-    locales: ['zh-Hans', 'en'], // 支持简体中文和英文
+    defaultLocale: 'en', // 默认语言设置为简体中文
+    locales: ['en'], // 支持简体中文和英文
   },
 
   presets: [
@@ -106,10 +106,6 @@ const config = {
                 label: '快速开始',
                 to: '/docs/intro',
               },
-              {
-                label: 'API 参考',
-                to: '/docs/api',
-              },
             ],
           },
           {
@@ -118,10 +114,6 @@ const config = {
               {
                 label: 'GitHub 讨论',
                 href: 'https://github.com/SisyphusZheng/aircomponents/discussions',
-              },
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/aircomponents',
               },
             ],
           },
